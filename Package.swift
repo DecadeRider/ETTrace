@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ETTrace",
-    platforms: [.iOS(.v13), .macOS(.v12), .tvOS(.v13), .visionOS(.v1)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "ETTrace",
